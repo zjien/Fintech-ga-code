@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.scan-image {
+    width: 100px;
+    height: 100px;
+}
+
+.qr-button {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;  /* To ensure the text is not underlined */
+    display: inline-block;  /* To ensure button styling */
+}
+
+.qr-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+

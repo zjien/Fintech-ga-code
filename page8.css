@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.success-message {
+    margin: 20px 0;
+}
+
+.back-home {
+    margin-top: 10px;
+}
+
+.back-home button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-home button:hover {
+    background-color: #45a049;
+}
+
+.success-icon {
+    width: 10px; /* Adjust the size as needed */
+    height: 10px; /* Adjust the size as needed */
+}
+
+
