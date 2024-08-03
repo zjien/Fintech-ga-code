@@ -9,17 +9,21 @@
 <body>
     <div class="phone">
         <div class="notch"></div>
-        <a href="page1.html" class="back-button">Back</a>
         <div class="content">
             <h1>DigiZen:<br>E-Wallet</h1>
-            <p>Enter your Username:</p>
-            <p>Enter Your Password:</p>
-            <div class="face-id">
-                <a href="page2.html">
-                    <img src="face id.png" alt="Face ID">
-                </a>
-            </div>
+            <form action="page2.html">
+                <label for="username">Enter your Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <label for="password">Enter your Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <div class="face-id">
+                    <button type="submit">
+                        <img src="face id.png" alt="Face ID">
+                    </button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
 </html>
+
